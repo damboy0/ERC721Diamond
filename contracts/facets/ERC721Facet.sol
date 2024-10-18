@@ -11,7 +11,7 @@ import {IERC165, ERC165} from "openzeppelin-contracts/contracts/utils/introspect
 import {IERC721Errors} from "openzeppelin-contracts/contracts/interfaces/draft-IERC6093.sol";
 
 //contract ERC721 is Context, ERC165, IERC721, IERC721Metadata, IERC721Errors {
-abstract contract ERC721PresaleFacet is Context, ERC165, IERC721, IERC721Metadata, IERC721Errors {
+abstract contract ERC721Facet is Context, ERC165, IERC721, IERC721Metadata, IERC721Errors {
     /**
      * @dev Implementation of https://eips.ethereum.org/EIPS/eip-721[ERC721] Non-Fungible Token Standard, including
      * the Metadata extension, but not including the Enumerable extension, which is available separately as
